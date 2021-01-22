@@ -1,0 +1,210 @@
+#create {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buy {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.round {
+    width: 60px;
+    height: 60px;
+    background: #eee;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body {
+    background-color: #eee
+}
+
+.container {
+    height: 100vh
+}
+
+.card {
+    border: none
+}
+
+.form-control {
+    border-bottom: 2px solid #eee !important;
+    border: none;
+    font-weight: 600
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 2px solid blue !important
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.inputbox span {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    transition: 0.5s
+}
+
+.inputbox i {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    transition: 0.5s;
+    color: #3F51B5
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.inputbox input:focus~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.inputbox input:valid~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.card-blue {
+    background-color: #492bc4
+}
+
+.hightlight {
+    background-color: #5737d9;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 14px
+}
+
+.yellow {
+    color: #fdcc49
+}
+
+.decoration {
+    text-decoration: none;
+    font-size: 14px
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #492bc4;
+    border-color: #492bc4
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #492bc4;
+    border-color: #492bc4
+}
+
+.decoration:hover {
+    text-decoration: none;
+    color: #fdcc49
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.flex-container a {
+    text-decoration: none;
+}
+
+.flex-item-one {
+    padding: 10px;
+    flex: 25%;
+}
+
+.flex-item-two {
+    padding: 10px;
+    flex: 25%;
+}
+
+.flex-item-three {
+    padding: 10px;
+    flex: 25%;
+}
+
+.flex-item-four {
+    padding: 10px;
+    flex: 25%;
+}
+
+@media (max-width: 800px) {
+    .flex-item-one,
+    .flex-item-two,
+    .flex-item-three,
+    .flex-item-four {
+        flex: 100%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+body {
+    background: #f6f6f6;
+}
+
+.box {
+    width: 320px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.box .heading {
+    background: #580a8f;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: "Rubik";
+}
+
+.faqs {
+    padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker {
+    float: right;
+    margin-top: 3px;
+}
+
+details {
+    background: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: "Rubik";
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+details summary {
+    outline: none;
+}
